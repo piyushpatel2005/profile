@@ -1,0 +1,153 @@
+/*Header*/
+
+/*Jumbotron*/
+body {
+	font-size: 2em;
+	text-align: left;
+	color: #666;
+	font-family: 'Merriweather', 'Lucida Sans', Verdana, sans-serif;
+	line-height: 3rem;
+	padding-top: 40px;
+}
+.tagline {
+	display: block;
+	text-indent: 1em;
+}
+
+.navbar {
+	background: #189BC3;
+}
+
+.navbar-brand {
+	color: #eee;
+	font-size: 3rem;
+	line-height: 2rem;
+}
+
+.navbar-brand:hover {
+	background: #eee;
+	color: #189BC3;
+}
+
+.navbar-toggle {
+	border: 1px solid white;
+}
+.navbar-toggle span {
+	background: white;
+}
+
+.nav li a {
+	color: #eee;
+}
+
+.nav li a:hover {
+	color: #189BC3;
+}
+
+/*Main content*/
+
+.container {
+	padding-top: 5rem;
+}
+
+
+.carousel-indicators .active{
+	background: #666;
+	border: 1px solid #666;
+}
+
+.carousel-indicators li {
+	border: 1px solid #666;
+}
+
+.item h1 {
+	color: #D86868;
+	text-shadow: 0 0 4px #fff;
+}
+
+.row h1,
+.row h2,
+.row h3 {
+	margin: 3rem;
+}
+
+.project {
+	margin: 1em 0;
+}
+
+p {
+	margin-bottom: 2rem;
+}
+
+.panel-body {
+	color: #666;
+}
+
+.panel-body code {
+	width: 20%;
+	margin: 5rem;
+}
+
+.panel-body p {
+	width: 70%;
+	display: inline;
+}
+
+section {
+	margin: 20px;
+}
+
+.img-rounded {
+	border-radius: 2rem;
+}
+/*Form Controls*/
+
+#description {
+	height: 200px;
+	resize: none;
+}
+
+input[type="radio"] {
+	height: 3rem;
+}
+
+.radio-inline label {
+	margin-right: 1em;
+}
+
+input[type="checkbox"] {
+	height: 3rem;
+}
+
+.checkbox span {
+	margin-left: 2rem;
+}
+
+/*Footer*/
+hr {
+	border: 1px solid #999;
+}
+
+i {
+	background: #fff;
+	border-radius: 50%;
+	border: 1px solid #777;
+	padding: 5px;
+	height: 45px;
+	width: 45px;
+	margin: 5px;
+	color: #fff;
+}
+
+.fa-facebook {
+	background: #6060C7;
+}
+
+.fa-github {
+	background: #111;
+	color: #fff;
+}
+
+.fa-twitter {
+	background: #D94865;
+}
